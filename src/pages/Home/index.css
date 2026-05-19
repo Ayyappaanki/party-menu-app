@@ -1,0 +1,45 @@
+
+.home-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px 18px 120px;
+}
+
+.home-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+
+.selection-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.selection-info p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+.empty-state {
+  text-align: center;
+  background: white;
+  padding: 40px 20px;
+  border-radius: 20px;
+  color: #777;
+  font-size: 16px;
+}
+
+
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 18px 14px 120px;
+  }
+}
